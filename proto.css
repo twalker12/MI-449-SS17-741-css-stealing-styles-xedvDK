@@ -1,0 +1,102 @@
+body {
+  background-color: grey;
+  display: block;
+  margin: 20px;
+  font-size: 70;
+  text-align: center;
+}
+
+.F {
+  font-size: 70px;
+}
+
+.L {
+  font-size: 70px;
+}
+
+.O {
+  font-size: 70px;
+}
+
+.A {
+  font-size: 70px;
+}
+
+.T {
+  font-size: 70px;
+}
+
+.button1 {
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #7795f8;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  text-align: right;
+}
+
+section {
+  background-color: #42f4cb;
+  padding: 28px;
+  margin-top: 18px;
+  text-align: center;
+  border-style: ridge;
+}
+
+.F:hover {
+  color: blue;
+}
+
+.L:hover {
+  color: red;
+}
+
+.O:hover {
+  color: green;
+}
+
+.A:hover {
+  color: yellow;
+}
+
+.T:hover {
+  color: purple;
+}
+
+.button1:active {
+  background-color: #f6f9fc;
+  transform: translateY(1px);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.button1:hover {
+  color: #7795f8;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+input {
+  height: 38px;
+  width: 543px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d4dada;
+  border-radius: 3px;
+  box-shadow: none;
+  vertical-align: bottom;
+}
+
+input:focus {
+  border: 1px solid #07682c;
+  outline: 0;
+}
