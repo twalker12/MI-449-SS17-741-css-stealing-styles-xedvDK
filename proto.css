@@ -6,23 +6,23 @@ body {
   text-align: center;
 }
 
-.F {
+.blue {
   font-size: 70px;
 }
 
-.L {
+.red {
   font-size: 70px;
 }
 
-.O {
+.green {
   font-size: 70px;
 }
 
-.A {
+.yellow {
   font-size: 70px;
 }
 
-.T {
+.purple {
   font-size: 70px;
 }
 
@@ -53,24 +53,24 @@ section {
   border-style: ridge;
 }
 
-.F:hover {
-  color: blue;
+.blue:hover {
+  color: #56b6c2;
 }
 
-.L:hover {
-  color: red;
+.red:hover {
+  color: #c62d48;
 }
 
-.O:hover {
-  color: green;
+.green:hover {
+  color: #98c379;
 }
 
-.A:hover {
-  color: yellow;
+.yellow:hover {
+  color: #c6ad00;
 }
 
-.T:hover {
-  color: purple;
+.purple:hover {
+  color: #b400b9;
 }
 
 .button1:active {
